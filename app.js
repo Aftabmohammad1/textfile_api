@@ -38,7 +38,7 @@ app.get('/getTextFiles', (req, res) => {
     });
 });
 app.use("/", (req, res) => {
-    return res.status(200).send("Hello Welcome to  API");
+    return res.status(200).send(" Welcome to  API");
   });
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
